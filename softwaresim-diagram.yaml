@@ -1,0 +1,500 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 603
+  horizontalOffset: -66
+  verticalOffset: -36
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 603
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_table_Black_87_v2_whtnmo.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199390/sds_logos/Document_table_v2_a4l3if.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>CSV</div></div><hr class="c-underrule"
+        style="background-color: #4e3391"></div>'
+    id: Tabular DataLRvfH
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Tabular Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Tabular Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Tabular Data
+      editableName: CSV
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Tabular Data
+      category: 4
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199390/sds_logos/Document_table_v2_a4l3if.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_table__044448_v2_ns2dtg.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_table_Black_87_v2_whtnmo.png
+      color: "#4e3391"
+      controlText: Tabular Data
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 114
+    offsetY: 266
+    zIndex: 2
+    outEdges:
+      - Orthogonal ConnectorlEt6a
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_table_Black_87_v2_whtnmo.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199390/sds_logos/Document_table_v2_a4l3if.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>BigQuery
+        Table</div></div><hr class="c-underrule" style="background-color:
+        #4e3391"></div>'
+    id: Tabular DataRJ3sT
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Tabular Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Tabular Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Tabular Data
+      editableName: BigQuery Table
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Tabular Data
+      category: 4
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199390/sds_logos/Document_table_v2_a4l3if.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_table__044448_v2_ns2dtg.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_table_Black_87_v2_whtnmo.png
+      color: "#4e3391"
+      controlText: Tabular Data
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 143.00000000000003
+    height: 124
+    offsetX: 610.5
+    offsetY: 266
+    zIndex: 3
+    inEdges:
+      - Orthogonal Connectormykms
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataproc_Black_87_dxttc3.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataproc_lmfmco.png);"></div><div
+        class="c-text"><div class="c-title">Dataproc</div><div
+        class="c-short-description">Efficient processing and analysis of big
+        data in the cloud</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google DataprocO5C3U
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Dataproc
+        shortDescription: Efficient processing and analysis of big data in the cloud
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Dataproc
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Dataproc
+      editableName: Dataproc
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Dataproc
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataproc_lmfmco.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataproc__044448_ag4qfp.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataproc_Black_87_dxttc3.png
+      color: "#3871e0"
+      controlText: Dataproc
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 351.5
+    offsetY: 197
+    zIndex: 4
+    inEdges:
+      - Orthogonal ConnectorlEt6a
+    outEdges:
+      - Orthogonal Connectormykms
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png);
+        border-radius: 10px"></div></div></div>'
+    id: Google Cloud StorageqBUHG
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Storage
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Storage
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Storage
+      editableName: Cloud Storage
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Object Storage
+          type: Storage
+          portsIn:
+            put: write
+            get: read
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Object Storage
+      name: Google Cloud Storage
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage__044448_vsadzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png
+      color: "#3871e0"
+      controlText: Cloud Storage
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToNamedSquare: false
+      collapsedToCircle: false
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 100
+    height: 100
+    offsetX: 27
+    offsetY: 211
+    zIndex: 1
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png);
+        border-radius: 10px"></div></div></div>'
+    id: Google BigQueryl7RCT
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google BigQuery
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google BigQuery
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google BigQuery
+      editableName: BigQuery
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google BigQuery
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery__044448_tx0mzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png
+      color: "#3871e0"
+      controlText: BigQuery
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToNamedSquare: false
+      collapsedToCircle: false
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 100
+    height: 100
+    offsetX: 714
+    offsetY: 210
+    zIndex: 0
+connectors:
+  - id: Orthogonal ConnectorlEt6a
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 164
+      y: 266
+    targetPoint:
+      x: 201.5
+      y: 197
+    sourceID: Tabular DataLRvfH
+    targetID: Google DataprocO5C3U
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Orthogonal Connectormykms
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 501.5
+      y: 197
+    targetPoint:
+      x: 539
+      y: 266
+    sourceID: Google DataprocO5C3U
+    targetID: Tabular DataRJ3sT
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+selectedItems:
+  width: 0
+  height: 0
